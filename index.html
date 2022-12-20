@@ -1,54 +1,175 @@
 <!-- 
-        LP = Landing Page
+  LP = Landing Page
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" charset="utf-8">
+<title>Fake Rekordz</title>
+<link rel="icon" href="/favicon.png" type="image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Rajdhani:wght@300&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<nav id="Main_Nav">
+  <img src="img/logos/logo-fakerekordz-white-fillout.png">
+  <ul id="Main_Nav-Socials">
+    <li><a href="instagram.com/fakerekordz"><img src="img/icons/icon-insta-white.png"></a></li>
+    <li><a href="twitch.com/fakerekordz"><img src="img/icons/icon-tv-white.png"></a></li>
+    <li><a href="https://t.me/fakerekordz"><img src="img/icons/icon-telegram-white.png"></a></li>
+    <li><a href="https://t.me/fakerekordz"><img src="img/icons/icon-rss-white.png"></a></li>
+  </ul><!-- end #LP-Socials -->
+</nav>
 
 <article id="LP">
-        <section id="LP-Stream">
-                <div id="LP-Stream_Archive"> <!-- v1 audio --> 
-                        <img id="LP-Stream_Archive-Img" src="{{ ... }}"/>
-                        <h2 id="LP-Stream_Archive-Episode_Title">{{ Episode Title }}</h2>
-                        <p id="LP-Stream_Archive-Episode_Description">{{ Episode Description }}</p>
-                        <date id="LP-Stream_Archive-Date">{{ Published on }}</date>
-                        <a id="LP-Stream_Archive-Creator" href="{{ link to creator pg }}">Creator</a>
-                        <a id="LP-Stream_Archive-Show_Title" href="{{ link to show pg }}">{{ Show Title }}</a>
-                        <ul id="LP-Stream_Archive-Genres" class="genres">
-                                <li>{{ Tags }}</li>
-                        </ul>
-                </div><!-- end #LP-Stream-Archive -->
-                <div id="LP-Stream-Controls">
-                        <button>Play</button>
-                        <button>Pause</button>
-                        <button>Previous</button>
-                        <button>Next</button>
-                </div>
-        </section><!-- end #LP-Stream -->
+<section id="LP-Stream" >
+  <div id="LP-Stream_Archive"> <!-- v1 audio --> 
+    <ul class="grid">
+      <li>
+        <img class="mix_img" src="img/third_eye_rainbow_smiley-01.jpg"/>
+        <div class="blackbox">
+            <div class="controls">
+                <img class="play" src="img/icons/icon-play-whiteoutline.png">
+                <img class="pause" src="img/icons/icon-pause-blackoutline.png">
+            </div>
+            <div class="txt">
+                <h2 class="mix_artist"><a href="{{artist page}}">Artist Name</a></h2>
+                <ul class="mix_genres">
+                    <li><a href="#">Genre</a></li>
+                </ul> 
+            </div>
+        </div><!-- end .blackbox -->
+      </li>
+      <li>
+        <img class="mix_img" src="img/third_eye_rainbow_smiley-01.jpg"/>
+        <div class="blackbox">
+            <div class="controls">
+                <img class="play" src="img/icons/icon-play-whiteoutline.png">
+                <img class="pause" src="img/icons/icon-pause-blackoutline.png">
+            </div>
+            <div class="txt">
+                <h2 class="mix_artist"><a href="{{artist page}}">Artist Name</a></h2>
+                <ul class="mix_genres">
+                    <li><a href="#">Genre</a></li>
+                </ul> 
+            </div>
+        </div><!-- end .blackbox -->
+      </li>
+      <li>
+        <img class="mix_img" src="img/third_eye_rainbow_smiley-01.jpg"/>
+        <div class="blackbox">
+            <div class="controls">
+                <img class="play" src="img/icons/icon-play-whiteoutline.png">
+                <img class="pause" src="img/icons/icon-pause-blackoutline.png">
+            </div>
+            <div class="txt">
+                <h2 class="mix_artist"><a href="{{artist page}}">Artist Name</a></h2>
+                <ul class="mix_genres">
+                    <li><a href="#">Genre</a></li>
+                </ul> 
+            </div>
+        </div><!-- end .blackbox -->
+      </li>
+      <li>
+        <img class="mix_img" src="img/third_eye_rainbow_smiley-01.jpg"/>
+        <div class="blackbox">
+            <div class="controls">
+                <img class="play" src="img/icons/icon-play-whiteoutline.png">
+                <img class="pause" src="img/icons/icon-pause-blackoutline.png">
+            </div>
+            <div class="txt">
+                <h2 class="mix_artist"><a href="{{artist page}}">Artist Name</a></h2>
+                <ul class="mix_genres">
+                    <li><a href="#">Genre</a></li>
+                </ul> 
+            </div>
+        </div><!-- end .blackbox -->
+      </li>
+      <li>
+        <img class="mix_img" src="img/third_eye_rainbow_smiley-01.jpg"/>
+        <div class="blackbox">
+            <div class="controls">
+                <img class="play" src="img/icons/icon-play-whiteoutline.png">
+                <img class="pause" src="img/icons/icon-pause-blackoutline.png">
+            </div>
+            <div class="txt">
+                <h2 class="mix_artist"><a href="{{artist page}}">Artist Name</a></h2>
+                <ul class="mix_genres">
+                    <li><a href="#">Genre</a></li>
+                </ul> 
+            </div>
+        </div><!-- end .blackbox -->
+      </li>
+    </ul><!-- end .grid -->
+  </div><!-- end #LP-Stream-Archive -->
+</section><!-- end #LP-Stream -->
+<section id="LP-Rainbow">
+</section>
+<section id="LP-WHATISFAKE">  
+ <!--  <div>
+    <h2>Welcome to the real fake</h2> 
+  </div> -->
+  <div>
+    <p>This is a record of the future</p>
+    <p>An oscillating playground</p>
+    <p>Of harmonic co-creation</p>
+  </div>
+  <div>
+    <p>Part label</p>
+    <p>Part gallery</p>
+    <p>Part incubator</p>
+  </div>
+  <div>
+    <p>A collective of creators</p>
+    <p>Chaos riders & snow globe shakers</p>
+    <p>Raising vibrations thru</p>
+    <p>Generation 🌀 Manifestation</p>  
+  </div>
+  <div>
+    <p>Remebering</p>
+    <p>Our fictional projections</p>
+    <p>Determine the scope of the future</p>
+  </div>
+  <div>
+    <p>The Future • The Past • The Now</p>
+    <p>Threading the needle of the Present</p>
+  </div>
+</section><!-- end LP-WHATISFAKE -->
+<section id="LP-Upcoming">
+  <ul>
+    <li>Labryinthine</li>
+    <li>Cyclo Infinito</li>
+    <li>Bombaez</li>
+  </ul>
+</section>
 
-        <section id="LP-Contact">
-                <form id="LP-Contact_Form" action="">
-                        <fieldset>
-                                <label for="LP-Contact_Form-Name">Name</label>
-                                <input type="text" name="Name" id="LP-Contact_Form-Name">
-                        </fieldset>
-                        <fieldset>
-                                <label for="LP-Contact_Form-Message">Message</label>
-                                <textarea name="message" id="LP-Contact_Form-Message"></textarea>
-                        </fieldset>
-                        <fieldset>
-                                <label for="LP-Contact_Form-Email">Email</label>
-                                <input type="text" name="Email" id="LP-Contact_Form-Email">
-                        </fieldset>
-                        <fieldset>
-                                <input type="submit" value="Send">
-                </form><!-- end #LP-Contact_Form -->
-        </section><!-- end #LP-Contact -->
+<section id="Submit">
+  <h2>SUBMIT A MIX</h2>
+  <form id="Submit_Form" action="">
+      <fieldset>
+          <label for="Submit_Form-Name">Name</label>
+          <input type="text" name="Name" id="Submit_Form-Name">
+      </fieldset>
+      <fieldset>
+          <label for="Submit_Form-Email">Email</label>
+          <input type="text" name="Email" id="Submit_Form-Email">
+      </fieldset>
+      <fieldset>
+          <label for="Submit_Form-Message">Message</label>
+          <textarea rows="6" name="message" id="Submit_Form-Message"></textarea>
+      </fieldset>
+      <fieldset>
+          <input type="submit" value="Send">
+      </fieldset>
+  </form><!-- end #Submit_Form -->
+</section><!-- end #Submit -->
 
-        <section id="LP-Socials">
-                <a href="instagram.com/fakerekordz"><i class="icon">instagram</i></a>
-                <a href="twitch.com/fakerekordz"><i class="icon">twitch</i></a>
-                <a href="https://t.me/fakerekordz"><i class="icon">telegram</i></a>
-        </section><!-- end #LP-Socials -->
-
-        <section id="LP-Donate">
-                <a id="LP-Donate-Paypal" href="paypal.me/fakerekordz">Paypal</a>
-        </section><!-- end #LP-Donate -->
+<!--   <section id="LP-Donate">
+    <a id="LP-Donate-Paypal" href="paypal.me/fakerekordz">Paypal</a>
+  </section><!-- end #LP-Donate --> -->
 </article>
+
+<script src="/js/libraries/jquery.js"></script>
+<script src="/js/app.js"></script>
